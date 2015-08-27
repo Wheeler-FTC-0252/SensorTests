@@ -17,6 +17,8 @@ public class ReadGamepad extends OpMode {
         rightStickX=gamepad1.right_stick_x;
         rightStickY=gamepad1.right_stick_y;
         telemetry.addData("Left X: ", leftStickX);
-        telemetry.addData("Right Y: ", leftStickY);
+        telemetry.addData("Left Y: ", leftStickY);
+        telemetry.addData("Right X: ", rightStickX);
+        telemetry.addData("Right Y: ", rightStickY);
     }
 }
