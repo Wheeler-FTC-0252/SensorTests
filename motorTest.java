@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 /**
  * Created by lucien on 8/26/15.
  */
-public class motorTest extends OpMode {
+public class MotorTest extends OpMode {
     DcMotor testMotor;
     public void init() {
         testMotor = hardwareMap.dcMotor.get("testMotor");
